@@ -14,8 +14,8 @@
     "style:fix": "stylelint ./{,.}**/*.{css,scss} --fix",
     "test": "jest --silent=false --verbose false --passWithNoTests",
     "sb": "storybook dev --port 6006",
-    "sb:build": "storybook build -o ./.storybook/static",
-    "chromatic": "pnpx chromatic --project-token=$CHROMATIC_PROJECT_TOKEN"
+    "build-storybook": "storybook build -o ./.storybook/static",
+    "chromatic": "pnpx chromatic --project-token=$CHROMATIC_PROJECT_TOKEN --auto-accept-changes"
   },
   "dependencies": {
     "@tuloki/core": "workspace:*",

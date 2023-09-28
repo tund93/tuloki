@@ -40,9 +40,9 @@ See `.env.example` for more details.
 
 ## Design
 
-- [Figma](https://www.figma.com)
+- [Figma](https://www.figma.com/)
 
 ## Component Catalog
 
-- [Storybook](https://main--638d5245f83a0dc73205cd8e.chromatic.com)
-- [Chromatic](https://www.chromatic.com/library?appId=638d5245f83a0dc73205cd8e&branch=main)
+- [Storybook](https://65155b6558a95b21171891a5-icmrwiqzgl.chromatic.com/)
+- [Chromatic](https://www.chromatic.com/library?appId=65155b6558a95b21171891a5&buildNumber=3)
