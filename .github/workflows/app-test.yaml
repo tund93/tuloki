@@ -257,7 +257,7 @@ jobs:
           token: ${{ secrets.GITHUB_TOKEN }}
           projectToken: ${{ secrets.CHROMATIC_PROJECT_TOKEN }}
           workingDir: apps/catalog/
-          buildScriptName: sb:build
+          buildScriptName: build-storybook
 
   app-test-check:
     runs-on: ubuntu-latest
