@@ -1,0 +1,12 @@
+{
+  "name": "@tuloki/prettier",
+  "version": "0.1.0",
+  "repository": "https://github.com/tund93/tuloki.git",
+  "private": true,
+  "main": "./index.cjs",
+  "type": "commonjs",
+  "scripts": {
+    "fmt": "prettier --check .",
+    "fmt:fix": "prettier --write ."
+  }
+}

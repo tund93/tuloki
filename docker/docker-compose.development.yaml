@@ -1,0 +1,20 @@
+version: "1.0"
+
+services:
+  app:
+    container_name: tuloki-app
+    build:
+      context: ../
+      dockerfile: ./docker/Dockerfile.development
+    volumes:
+      - type: bind
+        source: ../
+        target: /workspaces/tuloki/
+      - type: volume
+        source: pnpm-store
+        target: /workspaces/tuloki/.pnpm-store/
+    tty: true
+
+volumes:
+  pnpm-store:
+    driver: local

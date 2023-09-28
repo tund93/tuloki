@@ -1,0 +1,16 @@
+{
+  "name": "eslint-config-tuloki-react",
+  "version": "0.1.0",
+  "repository": "https://github.com/tund93/tuloki.git",
+  "private": true,
+  "main": "index.cjs",
+  "type": "commonjs",
+  "scripts": {
+    "lint": "eslint './**/*.*js'",
+    "lint:fix": "eslint './**/*.*js' --fix"
+  },
+  "devDependencies": {
+    "eslint-config-tuloki-base": "workspace:*",
+    "eslint-config-tuloki-esm": "workspace:*"
+  }
+}

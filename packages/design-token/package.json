@@ -1,0 +1,22 @@
+{
+  "name": "@tuloki/design-token",
+  "version": "0.1.0",
+  "repository": "https://github.com/tund93/tuloki.git",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "lint": "eslint './**/{*.*js,*.*ts}'",
+    "lint:fix": "eslint './**/{*.*js,*.*ts}' --fix",
+    "fmt": "prettier --check .",
+    "fmt:fix": "prettier --write .",
+    "test": "jest --silent=false --verbose false --passWithNoTests"
+  },
+  "devDependencies": {
+    "@tuloki/jest": "workspace:*",
+    "@tuloki/prettier": "workspace:*",
+    "@tuloki/stylelint": "workspace:*",
+    "@tuloki/tsconfig": "workspace:*",
+    "@tuloki/type": "workspace:*",
+    "eslint-config-tuloki-esm": "workspace:*"
+  }
+}

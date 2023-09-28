@@ -1,0 +1,23 @@
+{
+  "name": "@tuloki/jest",
+  "version": "0.1.0",
+  "repository": "https://github.com/tund93/tuloki.git",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "lint": "eslint './**/{*.*js,*.*ts}'",
+    "lint:fix": "eslint './**/{*.*js,*.*ts}' --fix",
+    "fmt": "prettier --check .",
+    "fmt:fix": "prettier --write ."
+  },
+  "devDependencies": {
+    "@tuloki/prettier": "workspace:*",
+    "@tuloki/tsconfig": "workspace:*",
+    "@types/jest": "29.5.5",
+    "eslint-config-tuloki-esm": "workspace:*",
+    "jest": "29.7.0",
+    "jest-environment-jsdom": "29.7.0",
+    "next": "13.5.3",
+    "ts-jest": "29.1.1"
+  }
+}
