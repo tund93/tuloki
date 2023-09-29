@@ -1,7 +1,7 @@
 <!-- markdownlint-disable MD033 MD041 -->
 
 <div align="center">
-  <img src="./doc/favicon.png" width="256px" />
+  <img src="./doc/android-chrome-192x192.png" width="256px" />
 </div>
 
 <p align="center">
@@ -11,7 +11,6 @@
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/license-MIT-orange" />
   <img src="https://img.shields.io/badge/codespaces-available-brightgreen" />
   <img src="https://img.shields.io/badge/storybook-available-brightgreen" />
 </p>
@@ -44,5 +43,5 @@ See `.env.example` for more details.
 
 ## Component Catalog
 
-- [Storybook](https://65155b6558a95b21171891a5-icmrwiqzgl.chromatic.com/)
-- [Chromatic](https://www.chromatic.com/library?appId=65155b6558a95b21171891a5&buildNumber=3)
+- [Storybook](https://main--65155b6558a95b21171891a5.chromatic.com)
+- [Chromatic](https://www.chromatic.com/library?appId=65155b6558a95b21171891a5&branch=main)

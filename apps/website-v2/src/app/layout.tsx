@@ -4,9 +4,9 @@ import { fontFamily } from '@tuloki/core/font/family';
 import { getBaseUrl } from '@tuloki/core/util/get-base-url';
 import { colors } from '@tuloki/design-token';
 import { cn } from '@tuloki/tailwind';
-import { Analytics } from '@vercel/analytics/react';
+// import { Analytics } from '@vercel/analytics/react';
 import type { Metadata } from 'next';
-import type { ReactNode } from 'react';
+import { type ReactNode, Suspense } from 'react';
 import { Footer } from '@/module/root/ui/layout/footer';
 import { Header } from '@/module/root/ui/layout/header';
 import '@/style/global.css';
@@ -19,11 +19,13 @@ const RootLayout = ({ children }: RootLayoutProps): ReactNode => (
   <html lang="en" suppressHydrationWarning>
     <head />
     <body className={cn(fontFamily, 'bg-purple-1 font-sans', 'bg-grid-light-purple-5/50 dark:bg-grid-dark-purple-5/50')}>
-      <Analytics />
+      {/* <Analytics /> */}
       <ThemeProvider attribute="data-theme" enableSystem defaultTheme="system">
         <Header outsideClass="fixed left-0 top-0 z-10" />
         <PageTransitionAnimationProvider>
-          <main className="min-h-screen">{children}</main>
+          <main className="min-h-screen">
+            <Suspense>{children}</Suspense>
+          </main>
         </PageTransitionAnimationProvider>
         <Footer outsideClass="mt-24" />
       </ThemeProvider>
@@ -53,8 +55,8 @@ export const generateMetadata = (): Metadata => {
     },
     twitter: {
       card: 'summary_large_image',
-      site: '@tuloki3616',
-      creator: '@tuloki3616',
+      site: '@tuloki',
+      creator: '@tuloki',
     },
     themeColor: [
       { media: '(prefers-color-scheme: light)', color: colors.light.purple['7'] },

@@ -17,6 +17,7 @@ node_modules/
 .pnpm-store/
 
 # env file
+.env
 .env*
 !.env.example
 

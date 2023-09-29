@@ -1,5 +1,5 @@
 import type { Meta, StoryObj } from '@storybook/react';
-import BrandIconImage from '#core/asset/brand/icon.webp';
+import LogoColorIconImage from '#core/asset/brand/logo-color.png';
 import { Image } from './image.presenter';
 
 type Story = StoryObj<typeof Image>;
@@ -13,8 +13,8 @@ export default meta;
 
 export const Default: Story = {
   args: {
-    src: BrandIconImage,
-    alt: 'The brand icon of this website.',
+    src: LogoColorIconImage,
+    alt: 'The logo icon of this website.',
     width: 640,
     height: 640,
   },

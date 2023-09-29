@@ -11,7 +11,7 @@ export const getBaseUrl = ({ forceCustomDomain }: Config = defaultConfig): URL =
   if (process.env['VERCEL_URL'] && !forceCustomDomain) {
     baseUrl = new URL(`https://${process.env['VERCEL_URL']}`);
   } else if (forceCustomDomain) {
-    baseUrl = new URL('https://tuloki.example/');
+    baseUrl = new URL('https://tuloki-website.vercel.app/');
   } else {
     baseUrl = new URL(`http://localhost:${process.env['PORT'] || 3000}`);
   }
