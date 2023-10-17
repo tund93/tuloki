@@ -22,6 +22,6 @@
     "@tuloki/tsconfig": "workspace:*",
     "add": "2.0.6",
     "eslint-config-tuloki-esm": "workspace:*",
-    "ts-essentials": "9.4.0"
+    "ts-essentials": "9.4.1"
   }
 }
