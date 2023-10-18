@@ -1,10 +1,9 @@
 import { PageTransitionAnimationProvider } from '@tuloki/core/component/page-transition-animation-provider';
 import { ThemeProvider } from '@tuloki/core/component/theme-provider';
-import { fontFamily } from '@tuloki/core/font/family';
+import { firaCode, getFontVariables, notoSans } from '@tuloki/core/font/family';
 import { getBaseUrl } from '@tuloki/core/util/get-base-url';
 import { colors } from '@tuloki/design-token';
 import { cn } from '@tuloki/tailwind';
-// import { Analytics } from '@vercel/analytics/react';
 import type { Metadata } from 'next';
 import { type ReactNode, Suspense } from 'react';
 import { Footer } from '@/module/root/ui/layout/footer';
@@ -18,8 +17,7 @@ type RootLayoutProps = {
 const RootLayout = ({ children }: RootLayoutProps): ReactNode => (
   <html lang="en" suppressHydrationWarning>
     <head />
-    <body className={cn(fontFamily, 'bg-purple-1 font-sans', 'bg-grid-light-purple-5/50 dark:bg-grid-dark-purple-5/50')}>
-      {/* <Analytics /> */}
+    <body className={cn(getFontVariables([firaCode, notoSans]), 'bg-purple-1 font-sans', 'bg-grid-light-purple-5/50 dark:bg-grid-dark-purple-5/50')}>
       <ThemeProvider attribute="data-theme" enableSystem defaultTheme="system">
         <Header outsideClass="fixed left-0 top-0 z-10" />
         <PageTransitionAnimationProvider>
@@ -53,6 +51,10 @@ export const generateMetadata = (): Metadata => {
       locale: 'en_US',
       url: getBaseUrl(),
     },
+    robots: {
+      follow: true,
+      index: true,
+    },
     twitter: {
       card: 'summary_large_image',
       site: '@tuloki',
@@ -62,5 +64,10 @@ export const generateMetadata = (): Metadata => {
       { media: '(prefers-color-scheme: light)', color: colors.light.purple['7'] },
       { media: '(prefers-color-scheme: dark)', color: colors.dark.purple['7'] },
     ],
+    icons: {
+      icon: '/favicon.ico',
+      shortcut: '/favicon-16x16.png',
+      apple: '/apple-touch-icon.png',
+    },
   };
 };

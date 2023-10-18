@@ -3,7 +3,7 @@ const config = {
   experimental: {
     typedRoutes: true,
   },
-  swcMinify: true,
+  // swcMinify: true,
   reactStrictMode: true,
   // ignoreBuildErrors: true,
   // typescript: {
