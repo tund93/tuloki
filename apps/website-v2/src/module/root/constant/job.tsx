@@ -43,7 +43,7 @@ export const jobs = {
     ],
   },
   designer: {
-    copy: 'Maximize the product value, optimize the UX, do both.',
+    copy: 'Maximize the product value, optimize the UX, do both...',
     features: [
       {
         label: 'Accessibility',
