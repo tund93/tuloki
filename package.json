@@ -17,7 +17,11 @@
     "all": "pnpm --filter @tuloki/*",
     "api": "pnpm --filter @tuloki/api",
     "catalog": "pnpm --filter @tuloki/catalog",
-    "website-v2": "pnpm --filter @tuloki/website-v2"
+    "website-v2": "pnpm --filter @tuloki/website-v2",
+    "lint": "turbo run lint",
+    "lint:fix": "turbo run lint:fix",
+    "fmt": "turbo run fmt",
+    "fmt:fix": "turbo run fmt:fix"
   },
   "devDependencies": {
     "@types/eslint": "8.44.4",

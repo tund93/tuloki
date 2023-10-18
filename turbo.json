@@ -5,6 +5,9 @@
     "lint": {
       "dependsOn": ["^generate", "generate"]
     },
+    "lint:fix": {
+      "dependsOn": ["^lint:fix"]
+    },
     "fmt": {
       "dependsOn": ["^generate", "generate"]
     },

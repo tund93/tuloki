@@ -161,6 +161,7 @@
   "eslint.workingDirectories": [
     "apps/api/",
     "apps/catalog/",
+    "apps/website-v1/",
     "apps/website-v2/",
     "packages/core/",
     "packages/design-token/",
@@ -168,7 +169,8 @@
     "packages/postcss/",
     "packages/stylelint",
     "packages/tailwind/",
-    "packages/type/"
+    "packages/type/",
+    "packages/urql/"
   ],
   "files.encoding": "utf8",
   "files.eol": "\n",
