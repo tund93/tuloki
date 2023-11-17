@@ -129,8 +129,8 @@ importers:
         specifier: 18.2.13
         version: 18.2.13
       chromatic:
-        specifier: 7.4.0
-        version: 7.4.0
+        specifier: 9.1.0
+        version: 9.1.0
       eslint-config-tuloki-react:
         specifier: workspace:*
         version: link:../../packages/eslint/eslint-config-tuloki-react
@@ -6466,8 +6466,8 @@ packages:
     engines: {node: '>=10'}
     dev: true
 
-  /chromatic@7.4.0:
-    resolution: {integrity: sha512-ORsoNgXiAxIEvbdVEqOu4lMZuVMGoM3kiO/toTrAEdh0ej9jIMm2VYqvGVdYGgIWO0xOD9Bn6A34gGeqCsZ1lQ==}
+  /chromatic@9.1.0:
+    resolution: {integrity: sha512-9ib8k4LIfg/88kKufxz1N8vgCB7nlLhJqmx+Vx55cM/6DCB/M6oqroirVRXfdeC7qaZuhyUemPF2QHxBh7GXtQ==}
     hasBin: true
     dev: true
 
