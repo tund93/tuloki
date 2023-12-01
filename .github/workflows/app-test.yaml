@@ -252,7 +252,7 @@ jobs:
         run: pnpm turbo run generate --filter @tuloki/website-v2
 
       - name: publish
-        uses: chromaui/action@v1
+        uses: chromaui/action@v10
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
           projectToken: ${{ secrets.CHROMATIC_PROJECT_TOKEN }}
