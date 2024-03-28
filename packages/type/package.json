@@ -14,7 +14,7 @@
     "test": "jest --silent=false --verbose false --passWithNoTests"
   },
   "dependencies": {
-    "dotenv": "16.3.1"
+    "dotenv": "16.4.5"
   },
   "devDependencies": {
     "@tuloki/jest": "workspace:*",
