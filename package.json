@@ -4,12 +4,12 @@
   "repository": "https://github.com/tund93/tuloki.git",
   "private": true,
   "engines": {
-    "node": ">=18.0.0 <19",
+    "node": ">=18.0.0 <21",
     "pnpm": ">=8.0.0"
   },
   "packageManager": "pnpm@8.9.2",
   "volta": {
-    "node": "18.18.2",
+    "node": "20.18.0",
     "pnpm": "8.9.2"
   },
   "scripts": {
