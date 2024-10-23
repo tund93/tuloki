@@ -17,7 +17,7 @@
     "eslint-config-tuloki-esm": "workspace:*",
     "jest": "29.7.0",
     "jest-environment-jsdom": "29.7.0",
-    "next": "13.5.5",
+    "next": "15.0.1",
     "ts-jest": "29.1.1"
   }
 }
