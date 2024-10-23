@@ -13,11 +13,11 @@
   "devDependencies": {
     "@tuloki/prettier": "workspace:*",
     "@tuloki/tsconfig": "workspace:*",
-    "@types/jest": "29.5.6",
+    "@types/jest": "29.5.14",
     "eslint-config-tuloki-esm": "workspace:*",
     "jest": "29.7.0",
     "jest-environment-jsdom": "29.7.0",
-    "next": "13.5.5",
-    "ts-jest": "29.1.1"
+    "next": "13.5.7",
+    "ts-jest": "29.2.5"
   }
 }
