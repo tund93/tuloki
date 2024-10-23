@@ -13,10 +13,10 @@
   },
   "devDependencies": {
     "@tuloki/prettier": "workspace:*",
-    "autoprefixer": "10.4.16",
+    "autoprefixer": "10.4.20",
     "eslint-config-tuloki-base": "workspace:*",
-    "postcss": "8.4.31",
+    "postcss": "8.4.47",
     "postcss-import": "15.1.0",
-    "tailwindcss": "3.3.3"
+    "tailwindcss": "3.4.14"
   }
 }
