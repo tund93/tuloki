@@ -505,8 +505,8 @@ importers:
         specifier: 2.0.1
         version: 2.0.1
       '@tsconfig/node-lts':
-        specifier: 18.12.5
-        version: 18.12.5
+        specifier: 22.0.4
+        version: 22.0.4
       '@tsconfig/strictest':
         specifier: 2.0.2
         version: 2.0.2
@@ -4873,8 +4873,8 @@ packages:
     resolution: {integrity: sha512-8Za+6fv85ipdoO1u/Xknyurab8T92LbS0/KzRB0/GHvPh3xl0L4yf5+VmSxXNwjF1uS/xLSqf+BPhfaqasCpZw==}
     dev: true
 
-  /@tsconfig/node-lts@18.12.5:
-    resolution: {integrity: sha512-KJZX0kQ5FBv77WDVzmQ9y1dUjaJCNXAAz3LSsg5cMwH0AUijVdDQtII+IVprEXdb13U9GjVOBxBzyRvr/ozPxw==}
+  /@tsconfig/node-lts@22.0.4:
+    resolution: {integrity: sha512-5eAeCX6l/EYe6H2UAw5nBgjfAgdlsR+lSp8YNNGwz+ixoi7JfJ5bOQvsiEhxGm5bOZFVF+cJSIj4tanpCCRMIw==}
     dev: true
 
   /@tsconfig/node10@1.0.9:
