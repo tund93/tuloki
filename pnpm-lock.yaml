@@ -129,8 +129,8 @@ importers:
         specifier: 18.2.13
         version: 18.2.13
       chromatic:
-        specifier: 7.4.0
-        version: 7.4.0
+        specifier: 13.3.5
+        version: 13.3.5
       eslint-config-tuloki-react:
         specifier: workspace:*
         version: link:../../packages/eslint/eslint-config-tuloki-react
@@ -6466,9 +6466,17 @@ packages:
     engines: {node: '>=10'}
     dev: true
 
-  /chromatic@7.4.0:
-    resolution: {integrity: sha512-ORsoNgXiAxIEvbdVEqOu4lMZuVMGoM3kiO/toTrAEdh0ej9jIMm2VYqvGVdYGgIWO0xOD9Bn6A34gGeqCsZ1lQ==}
+  /chromatic@13.3.5:
+    resolution: {integrity: sha512-MzPhxpl838qJUo0A55osCF2ifwPbjcIPeElr1d4SHcjnHoIcg7l1syJDrAYK/a+PcCBrOGi06jPNpQAln5hWgw==}
     hasBin: true
+    peerDependencies:
+      '@chromatic-com/cypress': ^0.*.* || ^1.0.0
+      '@chromatic-com/playwright': ^0.*.* || ^1.0.0
+    peerDependenciesMeta:
+      '@chromatic-com/cypress':
+        optional: true
+      '@chromatic-com/playwright':
+        optional: true
     dev: true
 
   /chrome-trace-event@1.0.3:
